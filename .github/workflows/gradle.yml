@@ -10,6 +10,7 @@ on:
   # main分支的pr操作会触发当前脚本的执行
   pull_request:
     branches: [ main ]
+  workflow_dispatch: # Put here!!
 
 jobs:
   build:
